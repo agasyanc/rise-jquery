@@ -1,4 +1,4 @@
-//Rise 0.2
+//Rise 0.2 Say Hi!
 document.write("<style>.rise{opacity:0}</style>");
 var speed = 500
 $(function(){
@@ -38,7 +38,7 @@ $(function(){
       newImage.scr = el;
       newImages.push(newImage);
     });
-      
+
     });
 
   function rise (object) {
@@ -46,7 +46,7 @@ $(function(){
         'opacity': 1,
           },
         speed, function() {
-        
+
       });
   }
 })
